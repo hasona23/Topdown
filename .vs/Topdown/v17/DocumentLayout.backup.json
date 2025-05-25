@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\MyGames\\Topdown\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{82F2EBC6-A66D-4199-8BD6-F5F8771EF183}|Topdown\\Topdown.csproj|d:\\mygames\\topdown\\topdown\\topdowngame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{82F2EBC6-A66D-4199-8BD6-F5F8771EF183}|Topdown\\Topdown.csproj|solutionrelative:topdown\\topdowngame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -23,19 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TopDownGame.cs",
-              "DocumentMoniker": "D:\\MyGames\\Topdown\\Topdown\\TopDownGame.cs",
-              "RelativeDocumentMoniker": "Topdown\\TopDownGame.cs",
-              "ToolTip": "D:\\MyGames\\Topdown\\Topdown\\TopDownGame.cs",
-              "RelativeToolTip": "Topdown\\TopDownGame.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAawEAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T20:30:11.162Z",
-              "EditorCaption": ""
             }
           ]
         }
