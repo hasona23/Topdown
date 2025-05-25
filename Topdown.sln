@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topdown", "Topdown\Topdown.csproj", "{82F2EBC6-A66D-4199-8BD6-F5F8771EF183}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonogameLibrary", "..\..\Engine\Core\MonogameLibrary.csproj", "{79BB204E-CC09-A81B-15D7-032F13091DCB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82F2EBC6-A66D-4199-8BD6-F5F8771EF183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F2EBC6-A66D-4199-8BD6-F5F8771EF183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F2EBC6-A66D-4199-8BD6-F5F8771EF183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F2EBC6-A66D-4199-8BD6-F5F8771EF183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79BB204E-CC09-A81B-15D7-032F13091DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79BB204E-CC09-A81B-15D7-032F13091DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79BB204E-CC09-A81B-15D7-032F13091DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79BB204E-CC09-A81B-15D7-032F13091DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {502DA71F-B0C8-4CDD-83D0-A9A8863CC5E8}
+	EndGlobalSection
+EndGlobal
