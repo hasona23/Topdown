@@ -1,0 +1,37 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "ArenaMap.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "ArenaMap.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 503.3333333333333,
+                "y": 515.3333333333334
+            }
+        },
+        "Tileset.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "D:/My Projects/ACyberGame/MainGame/Content/Sprites",
+    "map.height": 30,
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+        "ArenaMap.tmx",
+        "Tileset.tsx"
+    ],
+    "project": "CyberProject.tiled-project",
+    "recentFiles": [
+        "Tileset.tsx",
+        "ArenaMap.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx"
+}

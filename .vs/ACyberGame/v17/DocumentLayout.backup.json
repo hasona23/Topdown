@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My Projects\\ACyberGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9050DFBF-43C1-4421-A2D9-6EDEC4F8B6C4}|..\\..\\Engine\\Core\\MonogameLibrary.csproj|d:\\engine\\core\\utils\\windowresolutionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1F0C1D8-FC68-4829-B926-6382ED41A0B6}|MainGame\\MainGame.csproj|d:\\my projects\\acybergame\\maingame\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1F0C1D8-FC68-4829-B926-6382ED41A0B6}|MainGame\\MainGame.csproj|solutionrelative:maingame\\maingame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9050DFBF-43C1-4421-A2D9-6EDEC4F8B6C4}|..\\..\\Engine\\Core\\MonogameLibrary.csproj|d:\\engine\\core\\core.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Core.cs",
+              "DocumentMoniker": "D:\\Engine\\Core\\Core.cs",
+              "RelativeDocumentMoniker": "..\\..\\Engine\\Core\\Core.cs",
+              "ToolTip": "D:\\Engine\\Core\\Core.cs",
+              "RelativeToolTip": "..\\..\\Engine\\Core\\Core.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:19:10.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainGame.cs",
+              "DocumentMoniker": "D:\\My Projects\\ACyberGame\\MainGame\\MainGame.cs",
+              "RelativeDocumentMoniker": "MainGame\\MainGame.cs",
+              "ToolTip": "D:\\My Projects\\ACyberGame\\MainGame\\MainGame.cs",
+              "RelativeToolTip": "MainGame\\MainGame.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:19:06.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WindowResolutionHandler.cs",
+              "DocumentMoniker": "D:\\Engine\\Core\\Utils\\WindowResolutionHandler.cs",
+              "RelativeDocumentMoniker": "..\\..\\Engine\\Core\\Utils\\WindowResolutionHandler.cs",
+              "ToolTip": "D:\\Engine\\Core\\Utils\\WindowResolutionHandler.cs",
+              "RelativeToolTip": "..\\..\\Engine\\Core\\Utils\\WindowResolutionHandler.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T20:17:32.114Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
