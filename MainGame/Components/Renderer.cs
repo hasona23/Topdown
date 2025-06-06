@@ -8,6 +8,6 @@ public class Renderer(Color color,int size = 32) : Component
     public override void Draw(SpriteBatch spriteBatch, float dt)
     {
         base.Draw(spriteBatch, dt);
-        DebugRect.DrawSolid(new Rectangle(Owner.Pos.ToPoint(),new Point(size)),color);
+        DebugRenderer.DrawSolid(new Rectangle(Owner.Pos.ToPoint(),new Point(size)),color);
     }
 }

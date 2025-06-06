@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using MainGame.Components;
+using MainGame.Components.Managers;
+using MainGame.Components.Weapons;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using MonogameLibrary;
@@ -34,11 +36,12 @@ public class GameScene:Scene
             TiledObject playerObj = Map.ObjectGroups["Entities"].Objects.First(o => o.Name == "Player");
             World.AddEntity(new Entity("BulletGroup", Vector2.Zero).AddComponent(new BulletManager(Map)));
             Entity player = new Entity("Player", playerObj.Pos)
-                .AddComponent(new Collider(Map))
+                .AddComponent(new Collider(Map){Size = new Point(16,32),Offset = new Vector2(8,1)})
                 .AddComponent(new Sword(World["EnemyGroup"].Children))
                 .AddComponent(new SpriteRenderer(tileSet,playerObj.Gid))
                 .AddComponent(new Controller())
-                .AddComponent(new Shooter(Cam,World["BulletGroup"],World["EnemyGroup"].Children.ToArray()));
+                .AddComponent(new Shooter(Cam,World["BulletGroup"],World["EnemyGroup"].Children.ToArray()))
+                .AddComponent(new HurtBox());
             World.AddEntity(player);
         }
 
@@ -52,7 +55,9 @@ public class GameScene:Scene
             foreach (var enemyObj in enemies)
             {
                 Collider collider = new Collider(Map);
-                enemyGroup.AddChild(new Entity($"Enemy{i++}",enemyObj.Pos).AddComponent(new SpriteRenderer(tileSet,enemyObj.Gid)).AddComponent(collider));
+                enemyGroup.AddChild(new Entity($"Enemy{i++}",enemyObj.Pos).AddComponent(new SpriteRenderer(tileSet,enemyObj.Gid))
+                    .AddComponent(collider)
+                    .AddComponent(new HurtBox()));
             }
 
             World.AddEntity(enemyGroup);

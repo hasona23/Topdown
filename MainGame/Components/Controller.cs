@@ -1,4 +1,5 @@
 ﻿using System;
+using MainGame.Components.Weapons;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using MonogameLibrary;
@@ -15,6 +16,8 @@ public class Controller:Component
     private bool _canDash;
     private readonly Timer _dashCooldownTimer;
     private bool _isDashing;
+    private Sword _sword;
+    private Shooter _shooter;
 
     public Controller()
     {
@@ -25,11 +28,18 @@ public class Controller:Component
         _dashCooldownTimer = new Timer(1500);
         _dashCooldownTimer.OnFinish += () => _canDash = true;
         _isDashing = false;
+        
     }
+
+    public override void Init()
+    {
+        _shooter = Owner.GetComponent<Shooter>();
+        _sword = Owner.GetComponent<Sword>();
+    }
+
     public override void Update( float dt)
     {
-        base.Update( dt);
-       
+        
         Owner.Vel = Input.Keyboard.GetMovementWasd();
         if (Input.Keyboard.IsKeyPressed(Keys.Space) && !_isDashing && _canDash)
         {
@@ -39,8 +49,18 @@ public class Controller:Component
       
             _isDashing = true;
             _canDash = false;
-            
         }
+
+        if (Input.Keyboard.IsKeyPressed(Keys.Q))
+        {
+            _shooter.Attack();
+        }
+
+        if (Input.Keyboard.IsKeyPressed(Keys.E))
+        {
+            _sword.Attack();
+        }
+        
         _dashCooldownTimer.Update(dt);
         _dashTimer.Update(dt);
         if (Owner.Vel.LengthSquared() > 0)

@@ -91,13 +91,13 @@ public class Collider(TiledMap map):Component
         if (!GameData.DebugMode)
             return;
       
-        DebugRect.DrawHollow(CollisionRect,Color.Aquamarine);
+        DebugRenderer.DrawHollow(CollisionRect,Color.Aquamarine);
         foreach (var nearCollisionTileLayers in Map.GetNearCollisionTiles(CollisionRect.Location.ToVector2()))
         {
             foreach (var collisionTile in nearCollisionTileLayers.Value)
             {
                 
-                DebugRect.DrawHollow(collisionTile,Color.Green,4);
+                DebugRenderer.DrawHollow(collisionTile,Color.Green,4);
             }
         }
        
